@@ -2,7 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
-
+import { DateCountPipe } from './date-count.pipe';
+s
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -10,7 +11,7 @@ import { AppComponent } from './app.component';
     AppComponent,
     QuoteComponent,
     QuoteDetailComponent,
-    
+
   ],
   imports: [
     BrowserModule
