@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
 import { DateCountPipe } from './date-count.pipe';
+import { HighlightDirective } from './highlight.directive';
 
 import { AppComponent } from './app.component';
 
@@ -11,6 +12,7 @@ import { AppComponent } from './app.component';
     AppComponent,
     QuoteComponent,
     QuoteDetailComponent,
+    HighlightDirective,
 
   ],
   imports: [
