@@ -1,15 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { QuoteComponent } from './quote/quote.component';
+import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
 
 import { AppComponent } from './app.component';
-import { FormComponent } from './form/form.component';
-import { LikeComponent } from './like/like.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FormComponent,
-    LikeComponent,
+    QuoteComponent,
+    QuoteDetailComponent,
+    
   ],
   imports: [
     BrowserModule
