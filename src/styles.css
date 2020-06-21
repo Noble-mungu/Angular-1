@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+body{
+    background-image: url(../src/assets/back.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Metal Mania', cursive;
+    color:white;
+}
+.text{
+    text-align: center;
+}/* You can add global styles to this file, and also import other style files */
